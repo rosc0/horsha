@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Settings Reducer should GALLERY_ADD_IMAGES 1`] = `
+Object {
+  "images": Array [
+    Object {
+      "cropped": true,
+      "filename": "IMG_0111.HEIC",
+      "height": 3024,
+      "isStored": true,
+      "playableDuration": 0,
+      "uri": "assets-library://asset/asset.HEIC?id=CC95F08C-88C3-4012-9D6D-64A413D254B3&ext=HEIC",
+      "width": 4032,
+    },
+  ],
+}
+`;
+
+exports[`Settings Reducer should GALLERY_CLEAR_IMAGES 1`] = `
+Object {
+  "images": Array [],
+}
+`;
+
+exports[`Settings Reducer should return initial state 1`] = `
+Object {
+  "images": Array [],
+}
+`;

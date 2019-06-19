@@ -1,0 +1,564 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Horses Reducer should get horse album 1`] = `
+Object {
+  "addHorse": Object {
+    "error": false,
+    "fetching": false,
+    "step": "NAME",
+  },
+  "album": Object {
+    "fetching": false,
+    "pictures": Array [
+      Object {
+        "canDeleteImage": false,
+        "height": undefined,
+        "image": undefined,
+        "key": "461f4f4f-a39d-4cdb-b286-977f9e955195",
+        "width": undefined,
+      },
+      Object {
+        "canDeleteImage": false,
+        "height": undefined,
+        "image": undefined,
+        "key": "99ee327c-df20-4bce-9367-8bc986f5b35a",
+        "width": undefined,
+      },
+      Object {
+        "canDeleteImage": false,
+        "height": undefined,
+        "image": undefined,
+        "key": "69c5e59c-aa22-46a3-a930-760baec21343",
+        "width": undefined,
+      },
+      Object {
+        "canDeleteImage": false,
+        "height": undefined,
+        "image": undefined,
+        "key": "ffb38107-b935-48a9-b35d-584da69c786b",
+        "width": undefined,
+      },
+      Object {
+        "canDeleteImage": false,
+        "height": undefined,
+        "image": undefined,
+        "key": "a3e6ea6d-a92c-4581-a715-087b90bab459",
+        "width": undefined,
+      },
+      Object {
+        "canDeleteImage": false,
+        "height": undefined,
+        "image": undefined,
+        "key": "59a9d6fb-1255-4a9a-806d-b3b68180e40b",
+        "width": undefined,
+      },
+      Object {
+        "canDeleteImage": false,
+        "height": undefined,
+        "image": undefined,
+        "key": "a6da204d-0d81-4142-84ae-55a19b7cba05",
+        "width": undefined,
+      },
+    ],
+    "selectedImages": Array [],
+    "upload": Object {
+      "errored": false,
+      "isUploading": false,
+      "uploaded": false,
+    },
+  },
+  "cursor": null,
+  "detail": Object {
+    "entry": null,
+    "error": false,
+    "fetched": false,
+    "fetching": false,
+  },
+  "error": false,
+  "fetched": false,
+  "fetching": false,
+  "forceUpdate": null,
+  "horse": null,
+  "horsePictureChanged": 0,
+  "horseUser": null,
+  "horses": Array [],
+  "horsesRemaining": 0,
+  "journal": Object {
+    "error": false,
+    "fetched": false,
+    "fetching": false,
+  },
+  "profile": Object {
+    "birth": null,
+    "breed": null,
+    "color": null,
+    "dateCreated": null,
+    "description": null,
+    "fetched": false,
+    "fetching": true,
+    "gender": null,
+    "height": null,
+    "horseCare": null,
+    "image": "",
+    "name": null,
+    "stats": Object {
+      "distance": 0,
+      "duration": 0,
+      "rides": 0,
+    },
+    "weight": null,
+  },
+  "selectedRides": Array [],
+  "team": Object {
+    "fetching": true,
+    "owners": Array [],
+    "users": Array [],
+  },
+}
+`;
+
+exports[`Horses Reducer should get horse user 1`] = `
+Object {
+  "addHorse": Object {
+    "error": false,
+    "fetching": false,
+    "step": "NAME",
+  },
+  "album": Object {
+    "fetching": true,
+    "pictures": Array [],
+    "selectedImages": Array [],
+    "upload": Object {
+      "errored": false,
+      "isUploading": false,
+      "uploaded": false,
+    },
+  },
+  "cursor": null,
+  "detail": Object {
+    "entry": null,
+    "error": false,
+    "fetched": false,
+    "fetching": false,
+  },
+  "error": false,
+  "fetched": false,
+  "fetching": false,
+  "forceUpdate": null,
+  "horse": null,
+  "horsePictureChanged": 0,
+  "horseUser": Object {
+    "date_created": 1465208196000,
+    "date_last_accessed": 1501745884000,
+    "horse": Object {
+      "date_created": 1464792727000,
+      "id": "8f13609e-9872-4f90-8deb-3c4dc0a9bd02",
+      "profile": Object {
+        "name": "wicked long name test hello",
+      },
+      "profile_picture": Object {
+        "fullsize": Object {
+          "height": 800,
+          "url": "https://dev-content.horsha.com/023f45bb-c202-47cd-8ada-45f66c9167fd.jpg",
+          "width": 800,
+        },
+        "thumbnail": Object {
+          "height": 300,
+          "url": "https://dev-content.horsha.com/3172cfe9-4b5b-48a4-8dd3-5a10f58c61fc.jpg",
+          "width": 300,
+        },
+      },
+    },
+    "id": "e97d2af9-1365-44a9-873d-2b55198ea815",
+    "relation_type": "sharer",
+    "user": Object {
+      "id": "95abaa8c-98f6-4eb5-9c84-a7b4abd19d4b",
+      "name": "Do",
+      "profile_picture": Object {
+        "fullsize": Object {
+          "height": 1286,
+          "url": "https://dev-content.horsha.com/f60b0bb9-7ace-4ee4-959d-4a2a8a219d55.jpg",
+          "width": 1600,
+        },
+        "thumbnail": Object {
+          "height": 300,
+          "url": "https://dev-content.horsha.com/70d44fd6-6a4f-42d7-a912-04354045defb.jpg",
+          "width": 300,
+        },
+      },
+    },
+  },
+  "horses": Array [],
+  "horsesRemaining": 0,
+  "journal": Object {
+    "error": false,
+    "fetched": false,
+    "fetching": false,
+  },
+  "profile": Object {
+    "birth": null,
+    "breed": null,
+    "color": null,
+    "dateCreated": null,
+    "description": null,
+    "fetched": false,
+    "fetching": true,
+    "gender": null,
+    "height": null,
+    "horseCare": null,
+    "image": "",
+    "name": null,
+    "stats": Object {
+      "distance": 0,
+      "duration": 0,
+      "rides": 0,
+    },
+    "weight": null,
+  },
+  "selectedRides": Array [],
+  "team": Object {
+    "fetching": false,
+    "owners": Array [
+      false,
+    ],
+    "users": Array [
+      Object {
+        "createdAt": 1465208196000,
+        "horseUserId": "e97d2af9-1365-44a9-873d-2b55198ea815",
+        "image": undefined,
+        "key": "95abaa8c-98f6-4eb5-9c84-a7b4abd19d4b",
+        "name": "Do",
+        "relationType": "sharer",
+      },
+    ],
+  },
+}
+`;
+
+exports[`Horses Reducer should get horses 1`] = `
+Object {
+  "addHorse": Object {
+    "error": false,
+    "fetching": false,
+    "step": "NAME",
+  },
+  "album": Object {
+    "fetching": true,
+    "pictures": Array [],
+    "selectedImages": Array [],
+    "upload": Object {
+      "errored": false,
+      "isUploading": false,
+      "uploaded": false,
+    },
+  },
+  "cursor": undefined,
+  "detail": Object {
+    "entry": null,
+    "error": false,
+    "fetched": false,
+    "fetching": false,
+  },
+  "error": false,
+  "fetched": true,
+  "fetching": false,
+  "forceUpdate": null,
+  "horse": Object {
+    "date_created": 1464792727000,
+    "id": "8f13609e-9872-4f90-8deb-3c4dc0a9bd02",
+    "profile": Object {
+      "name": "wicked long name test hello",
+    },
+    "profile_picture": Object {
+      "fullsize": Object {
+        "height": 800,
+        "url": "https://dev-content.horsha.com/023f45bb-c202-47cd-8ada-45f66c9167fd.jpg",
+        "width": 800,
+      },
+      "thumbnail": Object {
+        "height": 300,
+        "url": "https://dev-content.horsha.com/3172cfe9-4b5b-48a4-8dd3-5a10f58c61fc.jpg",
+        "width": 300,
+      },
+    },
+  },
+  "horsePictureChanged": 0,
+  "horseUser": null,
+  "horses": Array [
+    Object {
+      "date_created": 1465208196000,
+      "date_last_accessed": 1501745884000,
+      "horse": Object {
+        "date_created": 1464792727000,
+        "id": "8f13609e-9872-4f90-8deb-3c4dc0a9bd02",
+        "profile": Object {
+          "name": "wicked long name test hello",
+        },
+        "profile_picture": Object {
+          "fullsize": Object {
+            "height": 800,
+            "url": "https://dev-content.horsha.com/023f45bb-c202-47cd-8ada-45f66c9167fd.jpg",
+            "width": 800,
+          },
+          "thumbnail": Object {
+            "height": 300,
+            "url": "https://dev-content.horsha.com/3172cfe9-4b5b-48a4-8dd3-5a10f58c61fc.jpg",
+            "width": 300,
+          },
+        },
+      },
+      "id": "e97d2af9-1365-44a9-873d-2b55198ea815",
+      "relation_type": "sharer",
+      "user": Object {
+        "id": "95abaa8c-98f6-4eb5-9c84-a7b4abd19d4b",
+        "name": "Do",
+        "profile_picture": Object {
+          "fullsize": Object {
+            "height": 1286,
+            "url": "https://dev-content.horsha.com/f60b0bb9-7ace-4ee4-959d-4a2a8a219d55.jpg",
+            "width": 1600,
+          },
+          "thumbnail": Object {
+            "height": 300,
+            "url": "https://dev-content.horsha.com/70d44fd6-6a4f-42d7-a912-04354045defb.jpg",
+            "width": 300,
+          },
+        },
+      },
+    },
+  ],
+  "horsesRemaining": 45,
+  "journal": Object {
+    "error": false,
+    "fetched": false,
+    "fetching": false,
+  },
+  "profile": Object {
+    "birth": null,
+    "breed": null,
+    "color": null,
+    "dateCreated": null,
+    "description": null,
+    "fetched": false,
+    "fetching": true,
+    "gender": null,
+    "height": null,
+    "horseCare": null,
+    "image": "",
+    "name": null,
+    "stats": Object {
+      "distance": 0,
+      "duration": 0,
+      "rides": 0,
+    },
+    "weight": null,
+  },
+  "selectedRides": Array [],
+  "team": Object {
+    "fetching": true,
+    "owners": Array [],
+    "users": Array [],
+  },
+}
+`;
+
+exports[`Horses Reducer should go to next step 1`] = `
+Object {
+  "addHorse": Object {
+    "error": false,
+    "fetching": false,
+    "step": "INFO",
+  },
+  "album": Object {
+    "fetching": true,
+    "pictures": Array [],
+    "selectedImages": Array [],
+    "upload": Object {
+      "errored": false,
+      "isUploading": false,
+      "uploaded": false,
+    },
+  },
+  "cursor": null,
+  "detail": Object {
+    "entry": null,
+    "error": false,
+    "fetched": false,
+    "fetching": false,
+  },
+  "error": false,
+  "fetched": false,
+  "fetching": false,
+  "forceUpdate": null,
+  "horse": null,
+  "horsePictureChanged": 0,
+  "horseUser": null,
+  "horses": Array [],
+  "horsesRemaining": 0,
+  "journal": Object {
+    "error": false,
+    "fetched": false,
+    "fetching": false,
+  },
+  "profile": Object {
+    "birth": null,
+    "breed": null,
+    "color": null,
+    "dateCreated": null,
+    "description": null,
+    "fetched": false,
+    "fetching": true,
+    "gender": null,
+    "height": null,
+    "horseCare": null,
+    "image": "",
+    "name": null,
+    "stats": Object {
+      "distance": 0,
+      "duration": 0,
+      "rides": 0,
+    },
+    "weight": null,
+  },
+  "selectedRides": Array [],
+  "team": Object {
+    "fetching": true,
+    "owners": Array [],
+    "users": Array [],
+  },
+}
+`;
+
+exports[`Horses Reducer should go to previous step 1`] = `
+Object {
+  "addHorse": Object {
+    "error": false,
+    "fetching": false,
+    "step": "INFO",
+  },
+  "album": Object {
+    "fetching": true,
+    "pictures": Array [],
+    "selectedImages": Array [],
+    "upload": Object {
+      "errored": false,
+      "isUploading": false,
+      "uploaded": false,
+    },
+  },
+  "cursor": null,
+  "detail": Object {
+    "entry": null,
+    "error": false,
+    "fetched": false,
+    "fetching": false,
+  },
+  "error": false,
+  "fetched": false,
+  "fetching": false,
+  "forceUpdate": null,
+  "horse": null,
+  "horsePictureChanged": 0,
+  "horseUser": null,
+  "horses": Array [],
+  "horsesRemaining": 0,
+  "journal": Object {
+    "error": false,
+    "fetched": false,
+    "fetching": false,
+  },
+  "profile": Object {
+    "birth": null,
+    "breed": null,
+    "color": null,
+    "dateCreated": null,
+    "description": null,
+    "fetched": false,
+    "fetching": true,
+    "gender": null,
+    "height": null,
+    "horseCare": null,
+    "image": "",
+    "name": null,
+    "stats": Object {
+      "distance": 0,
+      "duration": 0,
+      "rides": 0,
+    },
+    "weight": null,
+  },
+  "selectedRides": Array [],
+  "team": Object {
+    "fetching": true,
+    "owners": Array [],
+    "users": Array [],
+  },
+}
+`;
+
+exports[`Horses Reducer should return initial state 1`] = `
+Object {
+  "addHorse": Object {
+    "error": false,
+    "fetching": false,
+    "step": "NAME",
+  },
+  "album": Object {
+    "fetching": true,
+    "pictures": Array [],
+    "selectedImages": Array [],
+    "upload": Object {
+      "errored": false,
+      "isUploading": false,
+      "uploaded": false,
+    },
+  },
+  "cursor": null,
+  "detail": Object {
+    "entry": null,
+    "error": false,
+    "fetched": false,
+    "fetching": false,
+  },
+  "error": false,
+  "fetched": false,
+  "fetching": false,
+  "forceUpdate": null,
+  "horse": null,
+  "horsePictureChanged": 0,
+  "horseUser": null,
+  "horses": Array [],
+  "horsesRemaining": 0,
+  "journal": Object {
+    "error": false,
+    "fetched": false,
+    "fetching": false,
+  },
+  "profile": Object {
+    "birth": null,
+    "breed": null,
+    "color": null,
+    "dateCreated": null,
+    "description": null,
+    "fetched": false,
+    "fetching": true,
+    "gender": null,
+    "height": null,
+    "horseCare": null,
+    "image": "",
+    "name": null,
+    "stats": Object {
+      "distance": 0,
+      "duration": 0,
+      "rides": 0,
+    },
+    "weight": null,
+  },
+  "selectedRides": Array [],
+  "team": Object {
+    "fetching": true,
+    "owners": Array [],
+    "users": Array [],
+  },
+}
+`;

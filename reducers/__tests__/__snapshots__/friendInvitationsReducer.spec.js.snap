@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Comments Reducer should return initial state 1`] = `
+Object {
+  "cursor": null,
+  "error": null,
+  "fetched": false,
+  "fetching": false,
+  "ignoredInvitations": Array [],
+  "ignoredRemaining": 0,
+  "pendingInvitations": Array [],
+  "pendingRemaining": 0,
+}
+`;

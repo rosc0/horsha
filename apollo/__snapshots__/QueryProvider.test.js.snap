@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render loading state initially 1`] = `
+<View>
+  <Text>
+    Loading...
+  </Text>
+</View>
+`;
+
+exports[`should show data 1`] = `
+<View>
+  <Text>
+    Error :(
+  </Text>
+</View>
+`;
+
+exports[`should show error UI 1`] = `
+<View>
+  <Text>
+    Error :(
+  </Text>
+</View>
+`;

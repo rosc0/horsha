@@ -1,0 +1,1071 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components OfflineWarning should render self and subcomponents 1`] = `
+<FormattedWrapper
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Provider
+    store={
+      Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      }
+    }
+  >
+    <FormattedProvider
+      cldr={null}
+      currency="USD"
+      locale="en"
+      localeFallback={false}
+      messages={
+        Object {
+          "en": Object {
+            "alert": Object {
+              "subTitleError": "Something’s wrong, please try again later",
+              "titleError": "There’s been a server error",
+            },
+            "common": Object {
+              "addA": "Add",
+              "addASummary": "Add a summary",
+              "addLocation": "Add location",
+              "addPhoto": "ADD PHOTO",
+              "addPoint": "ADD POINT",
+              "allPhotos": "All photos",
+              "apply": "Apply",
+              "back": "Back",
+              "cancel": "Cancel",
+              "chooseYourOption": "Choose your option",
+              "close": "Close",
+              "create": "Create",
+              "delete": "Delete",
+              "done": "Done",
+              "edit": "Edit",
+              "error": "Error",
+              "fitToScreen": "FIT TO SCREEN",
+              "horse": "Horse",
+              "hourShort": "h",
+              "next": "Next",
+              "no": "No",
+              "notNow": "Not now",
+              "ok": "OK",
+              "onlyMine": "Only mine",
+              "previous": "Previous",
+              "save": "SAVE",
+              "searchResults": "Search results",
+              "seeAll": "See all",
+              "seeLessLower": "See less",
+              "seeMore": "SEE MORE",
+              "seeMoreLower": "See more",
+              "show": "Show",
+              "showAlbum": "Show album",
+              "showLess": "Show less",
+              "showMore": "Show more",
+              "tryAgain": "TRY AGAIN",
+              "yes": "Yes",
+            },
+            "editProfile": Object {
+              "aboutMe": "About Me",
+              "clearUpload": "Clear new image",
+              "editProfileTitle": "Edit Profile",
+              "livingIn": "Living in",
+              "uploadImage": "UPLOAD NEW",
+            },
+            "emails": Object {
+              "addAnotherEmailButton": "ADD ANOTHER EMAIL",
+              "confirmed": "Confirmed",
+              "deleteButton": "DELETE",
+              "emailMessage": "You can change your primary email by adding and confirming another email",
+              "makePrimaryButton": "MAKE PRIMARY",
+              "manageEmailTitle": "Manage email ⋅ {count}",
+              "maxEmailCount": "Maximum email limit reached",
+              "primary": "Primary ⋅ ",
+              "unconfirmed": "Unconfirmed",
+              "unconfirmedActionMessage": "Your new email address needs to be confirmed.
+A confirmation link has been sent to {email}
+Please check your email and click the link to confirm your email address",
+            },
+            "formErrors": Object {
+              "emailIsRequired": "Email is required",
+              "nameInvalidCharacters": "Name must contain characters",
+              "nameShouldBe": "Name should be at least 2 characters long",
+              "passwordMaxLength": "Password must be no longer than {length} characters",
+              "passwordMinLength": "Password must be at least {length} characters",
+              "passwordRequired": "Password is required",
+              "passwordRulesError": "Password must contain at least one capital letter and one number",
+              "validEmail": "Email not valid",
+            },
+            "formLabels": Object {
+              "aboutMe": "About me",
+              "birthday": "Birthday",
+              "breed": "Breed",
+              "color": "Colour",
+              "email": "Email",
+              "gender": "Gender",
+              "height": "Height ({unit})",
+              "horseCare": "Horse Care",
+              "horseDescription": "Description",
+              "name": "Name",
+              "password": "Password",
+              "passwordRepeat": "Repeat password",
+              "weight": "Weight ({unit})",
+            },
+            "friends": Object {
+              "acceptButton": "ACCEPT",
+              "addFriendTitle": "Add Friend",
+              "alreadyFriends": "Friends",
+              "deleteButton": "DELETE",
+              "findFacebookFriends": "Find Facebook friends on Horsha",
+              "friendListTitle": "Friends",
+              "friendRequestTitle": "Friend Invitations",
+              "friendsByKmTitle": "Riding distance",
+              "friendsScreenTitle": "Friends",
+              "friendsTitle": "Friends ⋅ {count}",
+              "ignoreButton": "IGNORE",
+              "ignoredTitle": "Ignored",
+              "invitesTitle": "Invites",
+              "noFriendResults": "We found no results for your search",
+              "noFriends": "You currently have no friends on Horsha",
+              "noFriendsInfo": "Share the care, share the fun.
+To find friends tap the + button at the top",
+              "noFriendsTitle": "Horsha is better with friends",
+              "noIgnoredInvites": "You have no ignored invites",
+              "noPendingInvites": "You have no pending invites",
+              "pendingTitle": "Pending",
+              "peopleYouMayKnow": "People you may know",
+              "searchFriends": "Search your friends",
+              "searchNameEmail": "Enter name or email",
+              "showIgnored": "Show ignored",
+              "showPending": "Show pending",
+              "tellSomeone": "Tell someone about Horsha",
+              "you": "You",
+            },
+            "gallery": Object {
+              "alert": "You need to take a picture first",
+              "cameraPermissionsMessage": "This lets you take a new picture.",
+              "cameraPermissionsTitle": "Horsha Would Like to Access Your Camera",
+              "chooseFromGallery": "Choose from gallery",
+              "cropError": "There was an error on crop, please try again",
+              "galleryPermissionsMessage": "This lets you choose pictures from your gallery.",
+              "galleryPermissionsTitle": "Horsha would like to Access Your Photos",
+              "galleryTitle": "Gallery",
+              "loadingImages": "Loading images",
+              "openSettings": "Open settings",
+              "optionsTitle": "Choose an option",
+              "takePicture": "Take picture",
+              "takePictureError": "There was an error while taking picture, please try again",
+              "takePictureTitle": "Take Picture",
+            },
+            "horseProfile": Object {
+              "about": "About",
+              "albumCount": "Album ⋅ {count}",
+              "birth": "Birthday",
+              "breed": "Breed",
+              "color": "Color",
+              "distance": "Distance",
+              "duration": "Duration",
+              "gender": "Gender",
+              "height": "Height",
+              "horseCareInfo": "SEE HORSE CARE INFO",
+              "horseCareInfoTitle": "Horse Care Info",
+              "horseTeamCount": "Horse team ⋅ {count}",
+              "noAlbumPictures": "Save memories and make new ones:
+add a photo to start the album.",
+              "noHorseCare": "No info available",
+              "noHorseCareInfo": "You could add the emergency contact, veterinarian contact, preferred feeding or other things that might be of use.",
+              "onHorshaSince": "ON HORSHA SINCE",
+              "profileTitle": "Profile",
+              "rides": "Rides",
+              "stats": "Stats",
+              "weight": "Weight",
+            },
+            "horseRides": Object {
+              "horseStats": "Horse stats",
+              "hours": "HOURS",
+              "minutes": "MIN",
+              "noRides": "See how you and your horse progress. Giddyup!",
+              "noRidesInfo": "Track and analyze your rides.
+To record a new or upload a previous ride tap the + at the top",
+              "noRidesInfoArchieved": "There are no rides to show",
+              "noTrailsPassed": "You passed no trails",
+              "seconds": "SEC",
+              "selectRide": "SELECT RIDE",
+              "showAllRides": "SHOW ALL MY RIDES",
+              "showMyRides": "SHOW ONLY MY RIDES",
+              "trailsPassed": "You passed {trailsPassed} trails",
+            },
+            "horses": Object {
+              "addFriendToTeam": "ADD FRIEND TO TEAM",
+              "addFriendsToTeam": "Add friends to team",
+              "addHorseTitle": "Add Horse",
+              "addInfo": "ADD INFO",
+              "addToTeamButton": "ADD TO TEAM",
+              "addToTeamTitle": "Add To Team",
+              "album": "Album",
+              "archived": "Archived",
+              "archivedHorse": "ARCHIVED HORSE",
+              "archivedMessage": "You are no longer part of the horse team for {horseName}. This means you can no longer contribute content to this horse. You will keep reading access up until the date you were part of the horse team. To be part of the team again, ask the owner of the horse to add you. If you don't want {horseName} to show up in your horse page anymore, remove it below.",
+              "chooseAnotherPhoto": "Choose another photo",
+              "chooseHorseTitle": "Choose Horse",
+              "choosePhotoText": "Let's add {horseName}'s good looks to the profile.",
+              "create": "Create",
+              "editHorse": "Edit Horse",
+              "editPicture": "UPLOAD NEW",
+              "horseAlbumDeleteButton": "Delete",
+              "horseAlbumDeletePicture": "Delete Photo",
+              "horseAlbumDeletePictures": "Delete Photos",
+              "horseAlbumDeletePluralTitle": "These photos will be deleted from the album and all posts made on Horsha.",
+              "horseAlbumDeleteSingularTitle": "This photo will be deleted from the album and all posts made on Horsha.",
+              "horseCareExample": "Examples: emergency contact, veterinarian contact, preferred feeding.",
+              "horseCareNotice": "Only visible for people you choose to add to the horse team.",
+              "horseCareQuestion": "What is {horseName} care info?",
+              "horseDescription": "What is {horseName} like?",
+              "horseTeam": "Team",
+              "horseTeamCount": "Horse Team ⋅ {count}",
+              "horses": "Horses",
+              "horsesTitleCount": "Horses ⋅ {count}",
+              "invalidError": "Please choose a value between {lowLimit} and {highLimit}",
+              "journal": "Journal",
+              "leaveHorseTeam": "LEAVE HORSE TEAM",
+              "makeArchivedMessage": "The user will not be able to contribute to the horse but will keep reading access up until this date",
+              "makeArchivedTitle": "Change user to archived",
+              "makeOwnerButton": "MAKE OWNER",
+              "makeOwnerMessage": "The user will be able to add/remove team members, including you",
+              "makeOwnerTitle": "Change user to owner",
+              "makeSelfArchivedMessage": "You will no longer be able to contribute to the horse but will keep reading access up until this date.",
+              "makeSelfArchivedTitle": "Leave the horse team?",
+              "makeSharerButton": "MAKE SHARER",
+              "makeSharerMessage": "The user will be able to add content for this horse",
+              "makeSharerTitle": "Change user to sharer",
+              "noHorse": "No horse",
+              "noHorseAlbum": "Start the album",
+              "noHorseAlbumInfo": "Save memories and make new ones.
+Tap the + button at the top",
+              "noHorseAlbumInfoArchived": "There are no images to show",
+              "noHorseInfo": "To add a horse tap the + button at the top",
+              "noHorseTeam": "Create an all-star team for your horse",
+              "noHorseTeamInfo": "Share the care, share the fun.
+To add a friend to the team tap the + button at the top",
+              "owner": "Owner",
+              "profile": "Profile",
+              "public": "Public",
+              "removeButton": "REMOVE",
+              "removeFromMyHorses": "REMOVE FROM MY HORSES",
+              "removeFromMyHorsesMessage": "If there are no other team members this horse will be deleted",
+              "removeFromMyHorsesTitle": "Remove from my horses",
+              "ridePreview": "Ride Preview",
+              "rides": "Rides",
+              "selfArchiveOkButton": "OK, I understand",
+              "selfArchiveWarningMessage": "If you leave the horse team and there are no other owners, the sharer that has been on the team the longest will be made owner.",
+              "selfArchiveWarningTitle": "Leaving the horse team",
+              "sharer": "Sharer",
+              "sinceRelation": "Since {since} ⋅ {relation}",
+              "stats": "Stats",
+              "uploadingPicture": "Uploading picture...",
+            },
+            "journal": Object {
+              "checkTheUrl": "Please check the youtube URL, make sure it is a link from youtube",
+              "editPost": "UPDATE POST",
+              "editPostTitle": "Edit Post",
+              "horseJournalAlbum": "Journal Album",
+              "horseJournalTitle": "Journal",
+              "maxPhotoMessage": "Sorry, you have reached the maximum amount of {count} photos per post",
+              "maxRideMessage": "Sorry, you have reached the maximum amount of {count} rides per post",
+              "maxVideoMessage": "Sorry, you have reached the maximum amount of {count} videos per post",
+              "needsPublicShareScope": "To share on Facebook you must set this post from horse team to public, press OK to do this now",
+              "needsPublicShareScopeTitle": "Set this post to public",
+              "newPostTitle": "New Post",
+              "noFacebookShareForTeam": "You cannot share to facebook when you are only sharing this post with your horse team, we have disabled it for now",
+              "noHorseJournal": "What has {horse} 
+been up to?",
+              "noHorseJournalArchieved": "There are no posts to show",
+              "noHorseJournalInfo": "To add a post tap the 
++ button at the top",
+              "post": "POST",
+              "saving": "SAVING...",
+              "selectHorse": "SELECT HORSE",
+              "shareMessage": "{user} created a journal entry for {horse}",
+              "shareScope": "Share scope",
+              "videoUrl": "Video URL",
+              "whatsTheVideoUrl": "What's the video URL?",
+              "whatsUp": "What's up today?",
+              "whatsUpWithHorseName": "What's up with {name} today?",
+              "youtubeError": "Error adding youtube video",
+            },
+            "legal": Object {
+              "licensesAndCredits": "Licenses and Credits",
+              "privacyPolicy": "Privacy Policy",
+              "termsAndConditions": "Terms and Conditions",
+            },
+            "login": Object {
+              "accountNotFoundError": "Your account was not found in our system",
+              "credentailsError": "You have entered an incorrect email or password
+Try again or reset your password",
+              "emailFormatError": "Please enter a valid email address",
+              "facebook": "LOG IN WITH FACEBOOK",
+              "forgotPassword": "Forgot Password?",
+              "learnMore": "Learn More",
+              "loginTitle": "Login",
+              "noEmailEnteredError": "Please enter an email",
+              "noPasswordEnteredError": "Please enter a password",
+              "or": "or",
+              "serverError": "There is a problem with our server, please try login again soon.",
+              "suspendedError": "Your account has been suspended",
+              "suspendedMessage": "You cannot login at the moment because your account is suspended",
+            },
+            "maps": Object {
+              "location": "Location",
+              "searchLocations": "Search locations",
+              "searchTitles": "Search by trail name",
+              "trailName": "Trail name",
+            },
+            "newsfeed": Object {
+              "addedTrail": "added a trail",
+              "areYouSureUpdateText": "We cannot revert this action.",
+              "areYouSureUpdateTitle": "Are you sure you want to delete this entry?",
+              "author": "AUTHOR",
+              "becameFriend": "became a friend of",
+              "cancel": "CANCEL",
+              "cantFollow": "Sorry, the trail did not load. Try again.",
+              "comment": "COMMENT",
+              "commentActions": "Report|Cancel",
+              "commentOwnerActions": "Edit|Delete|Cancel",
+              "createPostPlaceholder": "What's up with {horse}?",
+              "deleteEntry": "Delete post",
+              "editEntry": "Edit post",
+              "edited": "edited",
+              "emptyButton": "ADD FRIENDS",
+              "entryAdded": "added a journal entry for",
+              "errorContent": "We had a problem by trying to retrieve information from the server.",
+              "errorTitle": "Ooops. Something isn't right.",
+              "follow": "FOLLOW TRAIL",
+              "horseOwner": "became an owner of",
+              "horseSharer": "became a sharer of",
+              "journalTitle": "Journal",
+              "like": "LIKE",
+              "news": "News",
+              "noComments": "No comments here. Be the first one to comment!",
+              "noHorsesButton": "ADD HORSE",
+              "noHorsesText": "Add friends to start seeing their posts and create your own horse to write posts.",
+              "noHorsesTitle": "Hi {user},",
+              "noPictures": "There are no pictures uploaded.",
+              "placeholder": "Write a comment",
+              "post": "POST COMMENT",
+              "update": "UPDATE COMMENT",
+              "updateProfileButton": "UPDATE PROFILE",
+              "viewMoreComments": "View more comments",
+              "viewPreviousComments": "View previous comments",
+              "writeComment": "Write a comment",
+            },
+            "notifications": Object {
+              "friendHorseOwnerChanged": "{user} has been changed to an owner of {horse}",
+              "friendHorseOwnerCreated": "{user} has been added as an owner of {horse}",
+              "friendHorseSharerChanged": "{user} has been changed to a sharer of {horse}",
+              "friendHorseSharerCreated": "{user} has been added as a sharer of {horse}",
+              "friendHorseUserArchived": "{user} has been archived as a horse user for {horse}",
+              "friendHorseUserUnArchived": "{user} has been un-archived as a horse user for {horse}",
+              "friendshipCommentCreated": "{user} commented on your new friendship with {friend}",
+              "friendshipLikeCreated": "{user} liked your new friendship with {friend}",
+              "horseUserCommentCreated": "{user} commented on your horse team update for {horse}",
+              "horseUserLikeCreated": "{user} liked your horse team update for {horse}",
+              "journalCommentCreated": "{user} commented on your journal entry for {horse}",
+              "journalEntry": "{user} added a journal entry for {horse}",
+              "journalLikeCreated": "{user} liked your journal entry for {horse}",
+              "newFriends": "You are now friends with {name}",
+              "newItemsMessage": "{count} new notifications",
+              "noNotifications": "No notifications yet",
+              "noNotificationsInfo": "We'll let you know when there are new ones!",
+              "notificationsTitle": "Notifications",
+              "profileAndSettings": "Profile and Settings",
+              "returnButton": "RETURN",
+              "trailCommentCreated": "{user} commented on your trail {trail}",
+              "trailLikeCreated": "{user} liked your trail {trail}",
+              "trailReviewCreated": "{user} has created a review for your trail {trail}",
+              "trailReviewUpdated": "{user} has updated their review for your trail {trail}",
+              "youHorseOwnerChanged": "You have been changed to an owner of {horse}",
+              "youHorseOwnerCreated": "You have been added as an owner of {horse}",
+              "youHorseSharerChanged": "You have been changed to a sharer of {horse}",
+              "youHorseSharerCreated": "You have been added as a sharer of {horse}",
+              "youHorseUserArchived": "You have been archived as a horse user for {horse}",
+              "youHorseUserUnArchived": "You have been un-archived as a horse user for {horse}",
+            },
+            "offline": Object {
+              "noInternetContent": "You don't seem to be connected to the internet.",
+              "noInternetTitle": "No internet connection",
+              "tryAgain": "Try again",
+              "tryAgainLaterMessage": "Please connect and try again or try again later.",
+              "tryLater": "Try later",
+            },
+            "password": Object {
+              "changePasswordButton": "CHANGE PASSWORD",
+              "changePasswordFulfilledText": "Instructions on how to reset your password have been sent to ",
+              "changePasswordFulfilledTitle": "You've got mail",
+              "changePasswordMessageText": "We will mail you a link to set a new password.",
+              "changePasswordMessageTitle": "Change Password",
+              "changePasswordTitle": "Change Password",
+              "noMatchError": "The passwords you entered do not match",
+              "resetMessage": "Enter your email below and then follow the instruction you receive in your email",
+              "resetPasswordButton": "RESET PASSWORD",
+              "resetPasswordError": "It wasn't possible to reset the password of the provided email, please try again.",
+              "resetPasswordFulfilledEmailText": "{email}.",
+              "resetPasswordFulfilledText": "Instructions on how to reset your password have been sent to ",
+              "resetPasswordFulfilledTitle": "You've got mail",
+              "resetPasswordTitle": "Reset Password",
+              "rulesError": "The password must be 8-32 characters long and contain at least 1 capital letter and 1 number",
+            },
+            "permissions": Object {
+              "needStorageDownload": "We need your permission to use storage to download a file",
+              "needStorageRide": "We need your permission to use storage to create a ride",
+              "needStorageTrail": "We need your permission to use storage to create a trail",
+              "storageMessage": "Horsha needs your permission to use storage",
+              "storageTitle": "Permission to use storage",
+            },
+            "poi": Object {
+              "areYouSureText": "We cannot revert this action.",
+              "areYouSureTitle": "Are you sure you want to delete this POI?",
+              "byUserOnDate": "by {user} on {date}",
+              "camping": "Camping",
+              "chooseType": "Choose your option",
+              "clear": "CLEAR",
+              "delete": "Delete point",
+              "deselectAll": "DESELECT ALL",
+              "eatery": "Eatery",
+              "edit": "Edit point",
+              "editPoiTitle": "Edit Point",
+              "empty": "No trails nearby.",
+              "equestrian_facility": "Equestrian facility",
+              "goToNearByTrails": "CHECK NEARBY TRAILS",
+              "information_point": "Visitor Centre",
+              "loadingTrails": "Checking nearby trails...",
+              "lodging": "Lodging",
+              "nearbyTrail": "A NEARBY TRAIL",
+              "nearbyTrails": "{amount} NEARBY TRAILS",
+              "parking": "Parking",
+              "picnic_place": "Picnic place",
+              "poiTitle": "Add Point",
+              "point": "Point",
+              "seeDetails": "SEE DETAILS",
+              "selectAll": "SELECT ALL",
+              "selectCategory": "Select a category",
+              "showOnly": "SHOW ONLY",
+              "viewpoint": "View point",
+              "warning": "Warning",
+              "water_crossing": "Drinking water",
+              "watering_point": "Water crossing",
+              "writeADescription": "Description",
+            },
+            "profileAndSettings": Object {
+              "help": "Help",
+              "logout": "Log out",
+              "myProfileTitle": "Account",
+              "rateHorshaDescription": "Please let us know what you think and rate Horsha on the app store",
+              "rateHorshaLink": "Rate Horsha",
+              "rateHorshaTitle": "How do you like Horsha?",
+              "rateTheApp": "Rate the app",
+              "sendFeedback": "Send feedback",
+              "settings": "Settings",
+            },
+            "record": Object {
+              "addToRides": "ADD TO RIDES",
+              "addToRidesTitle": "Add To Rides",
+              "avgSpeed": "Avg. Speed",
+              "chooseMap": "Choose map",
+              "chooseTrailTitle": "Choose trail:",
+              "close": "Close",
+              "date": "DATE AND TIME",
+              "delete": "DELETE",
+              "deleteRecording": "Delete recording?",
+              "deviceNotConnected": "Please connect the device to the internet to choose a horse.",
+              "discoverNeaby": "Discover nearby",
+              "distance": "Distance",
+              "distanceWithUnit": "DISTANCE ({unit})",
+              "dontStop": "Don't stop",
+              "duration": "Duration",
+              "durationWithUnit": "DURATION (hh:mm:ss)",
+              "error": "There was an error while trying to save your ride, please try again!",
+              "favoriteTrails": "My favorite trails",
+              "firstPoint": "First point",
+              "followTrail": "FOLLOW TRAIL",
+              "followTrailsmall": "Follow trail",
+              "hide": "Hide",
+              "maxSpeed": "Max. Speed",
+              "pause": "PAUSE",
+              "recordTitle": "Record A Ride",
+              "resume": "RESUME",
+              "ride": "Ride",
+              "seeTrailDetails": "See trail details",
+              "shortRideMessage": "Your track is shorter than 500m and won't be saved. Are you sure you want to stop recording?",
+              "speedWithUnit": "AVG. SPEED ({unit})",
+              "startRide": "START RIDE",
+              "stop": "STOP",
+              "stopFollowingTrail": "Stop following trail",
+              "stopLower": "Stop",
+              "youAreHere": "You are here",
+            },
+            "report": Object {
+              "report": "Report",
+              "thankYou": "Thank you!",
+              "weWillLookIntoIt": "We will take a look at it.",
+            },
+            "reports": Object {
+              "reportButton": "REPORT",
+              "reportPlaceholder": "Enter your complaint (optional)",
+              "reportTittle": "Would you like to report this content?",
+            },
+            "review": Object {
+              "addReviewTitle": "Add Review",
+              "editReviewTitle": "Edit Review",
+              "firstToReview": "Be the first one to review this trail!",
+              "reviewThisTrail": "Review this trail",
+              "star": "STAR",
+              "stars": "STARS",
+              "unrated": "UNRATED",
+              "writeReview": "Write review",
+            },
+            "rideDetail": Object {
+              "addReview": "ADD REVIEW",
+              "addToJournal": "ADD TO JOURNAL",
+              "areYouSureText": "Are you sure you want to delete this ride?",
+              "ascent": "ASCENT",
+              "avgSpeed": "AVG SPEED",
+              "belowLow": "BELOW {lowValue} {unit}",
+              "betweenLowHigh": "{lowValue} < {highValue} {unit}",
+              "chartDistance": "Distance ({unit})",
+              "chartDuration": "Duration ({unit})",
+              "chartElevation": "Elevation ({unit})",
+              "chartSpeed": "Speed ({unit})",
+              "createTrail": "CREATE TRAIL",
+              "deleteRide": "Delete ride",
+              "descent": "DESCENT",
+              "distance": "DISTANCE",
+              "downloadFile": "Download file",
+              "duration": "DURATION",
+              "elevationTitle": "Elevation in {unit}",
+              "maxSpeed": "MAX SPEED",
+              "newRide": "New ride:",
+              "noElevation": "No elevation data",
+              "overHigh": "OVER {highValue} {unit}",
+              "recordRide": "Record ride",
+              "ridesTitle": "Ride Detail",
+              "speed": "Speed",
+              "speedAndElevation": "Speed and elevation",
+              "speedTitle": "Speed in {unit}",
+              "stats": "Stats",
+              "trailsOnThisRide": "Trails on this ride ⋅ {nrOfTrails}",
+              "uploadRide": "Upload ride",
+              "userRideWithHorse": "{userName} went for a ride with {horseName}",
+              "youPassedNoTrails": "You passed no trails on this ride",
+            },
+            "rideStats": Object {
+              "distance": "DISTANCE",
+              "duration": "DURATION",
+              "rides": "RIDES",
+            },
+            "settings": Object {
+              "about": "About",
+              "centimeters": "Centimeters",
+              "changePassword": "Change password",
+              "changePasswordTitle": "Password",
+              "hands": "Hands",
+              "heightSettingsTitle": "Height Settings",
+              "horseHeight": "Horse height",
+              "horseJounalUpdates": "Horse journal updates",
+              "horseTeamUpdates": "Horse team updates",
+              "imperial": "Imperial",
+              "inches": "Inches",
+              "licensesAndCredits": "Licenses and Credits",
+              "manageEmails": "Manage emails",
+              "manageEmailsTitle": "Emails",
+              "metric": "Metric",
+              "notificationSettingsTitle": "Notification Settings",
+              "notifications": "Push notifications",
+              "privacyPolicy": "Privacy Policy",
+              "settingsTitle": "Settings",
+              "stats": "Stats",
+              "trailNews": "Trail news",
+              "unitSettingsTitle": "Unit Settings",
+              "unitsOfMeasure": "Units of measure",
+              "version": "Version",
+            },
+            "share": Object {
+              "dialogTitle": "Share with ...",
+              "message": "Horsha: Lorem dolem Ipsum amet",
+              "title": "Wow, did you see that?",
+            },
+            "signup": Object {
+              "countryError": "You need to select your country",
+              "disclaimer": "By signing up you agree to the {termsLink} and {privacyLink} of Horsha",
+              "emailConflictError": "This email already exists on the server, please login instead",
+              "emailError": "You need to enter your email",
+              "facebookPermissionsMessage": "To login with Facebook we need to have permission for your email address",
+              "facebookSignUpButton": "SIGN UP WITH FACEBOOK",
+              "invalidContentError": "There was the problem with the content you have entered
+
+Server response: 
+{response}",
+              "nameError": "You need to enter your name",
+              "or": "OR",
+              "privacyLink": "Privacy Policy",
+              "serverError": "There was an error on the server",
+              "signupButton": "SIGN UP WITH EMAIL",
+              "signupTitle": "Create Account",
+              "termsLink": "Terms of Service",
+              "validEmail": "You need to enter a valid email",
+            },
+            "stats": Object {
+              "distance": "Distance",
+              "duration": "Duration",
+              "months": "Months",
+              "monthsFull": "|January|February|March|April|May|June|July|August|September|October|November|December",
+              "monthsSmall": "|Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sept|Oct|Nov|Dec",
+              "noRides": "We found no rides.",
+              "onlyMyRides": "Only my rides",
+              "rides": "Rides",
+              "seeRides": "SEE RIDES",
+              "stats": "Stats",
+              "userStats": "My stats",
+              "week": "WEEK ",
+              "weekDaysSmall": "SUN|MON|TUE|WED|THU|FRI|SAT",
+              "weeks": "Weeks",
+              "years": "Years",
+            },
+            "tabs": Object {
+              "friends": "Friends",
+              "horses": "Horses",
+              "newsfeed": "News",
+              "record": "Record",
+              "trails": "Trails",
+            },
+            "trails": Object {
+              "addPoiAfterCreateTrailText": "Are there points of interest nearby that you would like to add?",
+              "addPoint": "ADD POINT",
+              "albumCountTitle": "Album ⋅ {count}",
+              "areYouSureReviewText": "We cannot revert this action.",
+              "areYouSureReviewTitle": "Are you sure you want to delete this review?",
+              "asphalt": "Asphalt",
+              "author": "Author",
+              "checkAllThatApply": "Check all that apply:",
+              "chooseRide": "Choose ride",
+              "chooseType": "Choose the trail type",
+              "clearFilter": "Clear all settings",
+              "createFrom": "Create from",
+              "createTrailTitle": "Create Trail",
+              "created": "My Trails",
+              "deleteTrail": "Delete trail",
+              "description": "Description",
+              "dirtRoad": "Dirt road",
+              "dirt_road": "Dirt road",
+              "discover": "Discover Trails",
+              "distance": "DISTANCE",
+              "distanceFromStart": "{unit} from the start",
+              "downloadFile": "Download file",
+              "drivingSuitable": "Driving Suitable",
+              "drivingSuitableOnly": "Driving suitable only",
+              "duration": "DURATION",
+              "editTrail": "Edit trail",
+              "elevation": "Elevation",
+              "emptyMyPointsText": "To add a point of interest tap the + button at the top",
+              "emptyMyPointsTitle": "Anything of interest nearby?",
+              "exclude": "EXCLUDE",
+              "existingRide": "Existing ride",
+              "favorites": "Favorite Trails",
+              "fileTooBigMessage": "Please, use a file less than 10mb.",
+              "fileTooBigTitle": "File too big",
+              "filter": "Filter",
+              "firstStepText": "Select the location by tapping the map.",
+              "firstToAddPhotos": "Be the first to add photos to the trail.",
+              "firstToRateTrail": "Be the first to review this trail!",
+              "followTrail": "FOLLOW",
+              "gpxFile": "GPX file",
+              "grass": "Grass",
+              "gravel": "Gravel",
+              "isSuitableForCarriage": "Suitable for carriages",
+              "list": "List",
+              "map": "Map",
+              "mapType": "Choose the map type",
+              "moveEndPoint": "MOVE END POINT",
+              "moveStartPoint": "MOVE START POINT",
+              "myHistory": "My History",
+              "neverRiddenTrail": "You have never ridden this trail.",
+              "noOtherReviews": "No other reviews.",
+              "noPictures": "There are no pictures uploaded.",
+              "noRides": "This horse has no rides!",
+              "noTrailCreated": "Help others to ride beautiful 
+trails too",
+              "noTrailCreatedInfo": "To add a trail tap the 
++ button at the top",
+              "noTrailDiscover": "No trails",
+              "noTrailDiscoverInfo": "",
+              "noTrailFavorites": "No favorite trails",
+              "noTrailFavoritesInfo": "When you find a trail you like, tap the 
+ ❤ to make it a favorite",
+              "noTrailSearch": "Sorry, there are no results",
+              "noTrailSearchInfo": "We couldn't find any results 
+for \\"{query}\\"",
+              "noTrailSearchSuggestion": "
+
+Suggestions:",
+              "noTrailSearchSuggestionInfo": "try different/fewer words 
+or change spelling",
+              "nothingHere": "Ooops, nothing here. Sorry.",
+              "numberOfReview": "{count} review",
+              "numberOfReviews": "{count} reviews",
+              "off": " OFF",
+              "on": " ON",
+              "oneWay": "One way",
+              "oneWayOrRound": "One way or roundtrip",
+              "onlyFavorite": "Only favorite trails",
+              "onlyMy": "Only my trails",
+              "ooops": "Ooops!",
+              "options": "Please choose",
+              "owner": "owner",
+              "pictureBy": "By {user} ⋅ {date}",
+              "poiDistanceFromStart": "{poiType} at {distance}{unit} from start",
+              "poiTypes": "Types: ",
+              "points": "My Points",
+              "pointsOfInterestCount": "Points of Interest ⋅ {count}",
+              "problemWithRequest": "Looks like we had a problem with your request.",
+              "rating": "{rating} stars out of 5",
+              "redo": "Redo search in this area",
+              "reportContent": "Report content",
+              "requireWideTrail": "Requires a wide trail.",
+              "reviewsTitleCount": "Reviews ⋅ {count}",
+              "rideTimer": "{time} {durationText}",
+              "roundTrip": "Round trip",
+              "sand": "Sand",
+              "search": "Search",
+              "seeMoreHistory": "My History",
+              "seeMoreNearby": "Nearby",
+              "seeMoreNewRide": "NEW RIDE",
+              "seeMoreOnMap": "SEE ON MAP",
+              "seeMoreReviews": "Reviews",
+              "seeMoreStarsOut": "{rating} stars out of 5",
+              "selectButton": "SELECT",
+              "showAll": "Show all",
+              "showOptions": "All stars",
+              "sortBy": "Sort by",
+              "sortOptions": "Most recent|Best rating|Worst rating",
+              "star": " star",
+              "stars": " stars",
+              "success": "Success!",
+              "suitableForCarriage": "Is this trail suitable for carriages?",
+              "surfaceTypes": "SURFACE TYPE(S)",
+              "surfaces": "SURFACES",
+              "titleLengthError": "The title must be 3 or more characters ",
+              "trailAlbum": "Trail Album",
+              "trailName": "Trail name",
+              "trailSuccessfullyCreated": "The trail was successfully created!",
+              "unlabeled": "Unlabeled",
+              "updateTrail": "Edit info",
+              "uploadGpxFile": "Upload a GPX file",
+              "userHorseRide": "{user} and {horse} went for a ride",
+              "viewLess": "View less",
+              "viewMore": "View more",
+              "weAreCreatingTrail": "We are creating your trail right now!",
+              "withPointsOfInterest": "WITH POINTS OF INTEREST NEARBY",
+              "writeReview": "Write review",
+              "writeReviewCaps": "WRITE REVIEW",
+              "wrongFileExtMessage": "Please, use only \\".gpx\\" files.
+You entered a \\"{extension}\\" file.",
+              "wrongFileExtTitle": "Wrong file extension",
+              "youHaveNoHorses": "You have no horses.",
+            },
+            "unverified": Object {
+              "addFriendMessage": "To add friends, please confirm your email address",
+              "bar": "PLEASE CONFIRM YOUR EMAIL ADDRESS",
+              "checkYourEmail": "Check your email for the confirmation",
+              "confirmationResent": "Confirmation re-sent",
+              "message": "A confirmation link has been sent to {email}.
+Please check your mail and click the link to confirm your email address.",
+              "resendEmailConfirmation": "RESEND EMAIL CONFIRMATION",
+            },
+            "upload": Object {
+              "processingFile": "Processing file",
+              "uploadGpxError": "There is a problem with the file you are trying to upload, try another file.",
+              "uploadGpxErrorTitle": "Error uploading your file",
+              "uploadingGpx": "Uploading GPX file",
+              "uploadingImage": "Uploading image",
+            },
+            "userProfile": Object {
+              "aboutMe": "ABOUT ME",
+              "aboutTitle": "About",
+              "addFriend": "ADD FRIEND",
+              "birthday": "BIRTHDAY",
+              "edit": "Edit",
+              "friendRequestSent": "REQUEST SENT",
+              "friendsOnly": "(FRIENDS ONLY)",
+              "friendsTitle": "Friends ⋅ {count}",
+              "gender": "GENDER",
+              "horsesTitle": "Horses ⋅ {count}",
+              "location": "LIVING IN",
+              "manage": "Manage",
+              "myUserProfileTitle": "My Profile",
+              "onHorshaSince": "ON HORSHA SINCE",
+              "statsTitle": "Stats",
+              "unfriend": "Unfriend",
+              "unfriendConfirmation": "Are you sure?",
+              "unfriendMessage": "This action will remove this friend from your friend list",
+              "userProfileTitle": "Profile",
+            },
+            "welcome": Object {
+              "login": "LOG IN",
+              "signup": "SIGN UP FOR HORSHA",
+              "slide1Content": "Description of what you can do with the app",
+              "slide1Title": "Welcome to Horsha!",
+            },
+          },
+          "nl": Object {
+            "login": Object {
+              "facebook": "Login with Facebook",
+              "forgot": "Forgot Password?",
+              "password": "Password",
+            },
+            "or": "OR",
+            "welcome": Object {
+              "login": "LOG IN",
+              "signup": "SIGN UP FOR HORSHA",
+            },
+          },
+          "pt": Object {
+            "login": Object {
+              "facebook": "Entrar com Facebook",
+              "forgot": "Esqueceu a senha?",
+              "password": "Senha",
+            },
+            "or": "OU",
+            "welcome": Object {
+              "login": "LOG IN",
+              "signup": "NÃO ESTÁ NA HORSHA?",
+            },
+          },
+        }
+      }
+      warnOnMissingMessage={true}
+    >
+      <Connect(OfflineWarning)
+        app={
+          Object {
+            "isDeviceConnected": true,
+          }
+        }
+      >
+        <OfflineWarning
+          app={
+            Object {
+              "isDeviceConnected": false,
+            }
+          }
+          dispatch={[Function]}
+        >
+          <TouchableHighlight
+            activeOpacity={0.85}
+            delayPressOut={100}
+            onPress={[Function]}
+            style={
+              Object {
+                "backgroundColor": "white",
+                "borderBottomColor": "#418382",
+                "borderBottomWidth": 1,
+                "justifyContent": "space-between",
+                "padding": 10,
+                "position": "absolute",
+                "top": 0,
+                "width": "100%",
+              }
+            }
+            underlayColor="black"
+          >
+            <View
+              accessible={true}
+              isTVSelectable={true}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "white",
+                  "borderBottomColor": "#418382",
+                  "borderBottomWidth": 1,
+                  "justifyContent": "space-between",
+                  "padding": 10,
+                  "position": "absolute",
+                  "top": 0,
+                  "width": "100%",
+                }
+              }
+            >
+              <View
+                accessible={true}
+                isTVSelectable={true}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "white",
+                    "borderBottomColor": "#418382",
+                    "borderBottomWidth": 1,
+                    "justifyContent": "space-between",
+                    "padding": 10,
+                    "position": "absolute",
+                    "top": 0,
+                    "width": "100%",
+                  }
+                }
+              >
+                <Text
+                  message="offline/noInternetContent"
+                  style={
+                    Object {
+                      "color": "#418382",
+                      "textAlign": "center",
+                    }
+                  }
+                  type="default"
+                >
+                  <FormattedComponent
+                    message="offline/noInternetContent"
+                    style={
+                      Array [
+                        Object {
+                          "color": "#9a9a9b",
+                          "fontFamily": "OpenSans",
+                        },
+                        Object {
+                          "color": "#418382",
+                          "textAlign": "center",
+                        },
+                      ]
+                    }
+                  >
+                    <FormattedMessage
+                      accessibilityLabel=""
+                      adjustsFontSizeToFit={false}
+                      allowFontScaling={true}
+                      defaultMessage={null}
+                      globalize={
+                        _default {
+                          "_currencyFormatters": Object {},
+                          "_dateFormatters": Object {},
+                          "_dateParsers": Object {},
+                          "_messageFormatters": Object {
+                            "offline/noInternetContent": [Function],
+                          },
+                          "_numberFormatters": Object {},
+                          "_numberParsers": Object {},
+                          "_pluralGenerators": Object {},
+                          "_relativeTimeFormatters": Object {},
+                          "currencyCode": "USD",
+                          "globalize": Globalize {
+                            "cldr": Cldr {
+                              "attributes": Object {
+                                "bundle": "en",
+                                "language": "en",
+                                "maxLanguageId": "en-Latn-US",
+                                "minLanguageId": "en",
+                                "region": "US",
+                                "script": "Latn",
+                                "territory": "US",
+                                "variant": undefined,
+                              },
+                              "ee": EventEmitter {
+                                "_events": Object {
+                                  "get": Array [],
+                                },
+                              },
+                              "locale": "en",
+                              "off": [Function],
+                              "on": [Function],
+                              "once": [Function],
+                              "supplemental": [Function],
+                            },
+                          },
+                          "locale": "en",
+                          "options": Object {
+                            "fallback": false,
+                            "warnOnMissingMessage": true,
+                          },
+                        }
+                      }
+                      message="offline/noInternetContent"
+                      style={
+                        Array [
+                          Object {
+                            "color": "#9a9a9b",
+                            "fontFamily": "OpenSans",
+                          },
+                          Object {
+                            "color": "#418382",
+                            "textAlign": "center",
+                          },
+                        ]
+                      }
+                      values={Object {}}
+                    >
+                      <Text
+                        accessibilityLabel=""
+                        adjustsFontSizeToFit={false}
+                        allowFontScaling={true}
+                        style={
+                          Array [
+                            Object {
+                              "color": "#9a9a9b",
+                              "fontFamily": "OpenSans",
+                            },
+                            Object {
+                              "color": "#418382",
+                              "textAlign": "center",
+                            },
+                          ]
+                        }
+                      >
+                        <Text
+                          accessibilityLabel=""
+                          adjustsFontSizeToFit={false}
+                          allowFontScaling={true}
+                          style={
+                            Array [
+                              Object {
+                                "color": "#9a9a9b",
+                                "fontFamily": "OpenSans",
+                              },
+                              Object {
+                                "color": "#418382",
+                                "textAlign": "center",
+                              },
+                            ]
+                          }
+                        >
+                          You don't seem to be connected to the internet.
+                        </Text>
+                      </Text>
+                    </FormattedMessage>
+                  </FormattedComponent>
+                </Text>
+              </View>
+            </View>
+          </TouchableHighlight>
+        </OfflineWarning>
+      </Connect(OfflineWarning)>
+    </FormattedProvider>
+  </Provider>
+</FormattedWrapper>
+`;

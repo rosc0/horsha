@@ -1,0 +1,822 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HorsesList /> renders loading 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <HorsesList
+    actions={
+      Object {
+        "addFriendToTeam": [Function],
+        "addHorse": [Function],
+        "addHorseImage": [Function],
+        "clearAddHorse": [Function],
+        "clearSelectedImages": [Function],
+        "clearSelectedRides": [Function],
+        "deleteHorseImages": [Function],
+        "deleteHorseJournal": [Function],
+        "editHorseImage": [Function],
+        "editHorseJournal": [Function],
+        "editHorseProfile": [Function],
+        "editHorseUser": [Function],
+        "editShareScope": [Function],
+        "getHorseAlbum": [Function],
+        "getHorseJournal": [Function],
+        "getHorseProfile": [Function],
+        "getHorseUser": [Function],
+        "getHorses": [Function],
+        "getJournalPost": [Function],
+        "getMoreHorses": [Function],
+        "getStatusPost": [Function],
+        "saveHorseJournal": [Function],
+        "selectRide": [Function],
+        "setHorse": [Function],
+        "setLastAccessedHorse": [Function],
+        "setNextStep": [Function],
+        "setPreviousStep": [Function],
+        "toggleSelectImage": [Function],
+        "unselectRide": [Function],
+      }
+    }
+    horses={
+      Object {
+        "addHorse": Object {
+          "fetching": false,
+          "step": "NAME",
+        },
+        "album": Object {
+          "fetching": true,
+          "pictures": Array [],
+          "selectedImages": Array [],
+          "upload": Object {
+            "errored": false,
+            "isUploading": false,
+            "uploaded": false,
+          },
+        },
+        "cursor": null,
+        "detail": Object {
+          "entry": null,
+          "error": false,
+          "fetched": false,
+          "fetching": false,
+        },
+        "error": false,
+        "fetched": false,
+        "fetching": false,
+        "forceUpdate": null,
+        "horse": Object {
+          "id": null,
+          "image": null,
+          "name": null,
+          "relationType": null,
+        },
+        "horsePictureChanged": 0,
+        "horses": Array [],
+        "horsesRemaining": 0,
+        "journal": Object {
+          "error": false,
+          "fetched": false,
+          "fetching": false,
+        },
+        "profile": Object {
+          "birth": null,
+          "breed": null,
+          "color": null,
+          "description": null,
+          "fetched": false,
+          "fetching": true,
+          "gender": null,
+          "height": null,
+          "horseCare": null,
+          "image": "",
+          "name": null,
+          "stats": Object {
+            "distance": 0,
+            "duration": 0,
+            "rides": 0,
+          },
+          "weight": null,
+        },
+        "selectedRides": Array [],
+        "team": Object {
+          "fetching": true,
+          "owners": Array [],
+          "users": Array [],
+        },
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <Loading
+        type="spinner"
+      />,
+      "style": Object {
+        "backgroundColor": "white",
+        "flex": 1,
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "type": "spinner",
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <Loading
+          type="spinner"
+        />,
+        "style": Object {
+          "backgroundColor": "white",
+          "flex": 1,
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "type": "spinner",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+    "context": Object {
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+    },
+  },
+}
+`;
+
+exports[`<HorsesList /> renders without exploding 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <HorsesList
+    actions={
+      Object {
+        "addFriendToTeam": [Function],
+        "addHorse": [Function],
+        "addHorseImage": [Function],
+        "clearAddHorse": [Function],
+        "clearSelectedImages": [Function],
+        "clearSelectedRides": [Function],
+        "deleteHorseImages": [Function],
+        "deleteHorseJournal": [Function],
+        "editHorseImage": [Function],
+        "editHorseJournal": [Function],
+        "editHorseProfile": [Function],
+        "editHorseUser": [Function],
+        "editShareScope": [Function],
+        "getHorseAlbum": [Function],
+        "getHorseJournal": [Function],
+        "getHorseProfile": [Function],
+        "getHorseUser": [Function],
+        "getHorses": [Function],
+        "getJournalPost": [Function],
+        "getMoreHorses": [Function],
+        "getStatusPost": [Function],
+        "saveHorseJournal": [Function],
+        "selectRide": [Function],
+        "setHorse": [Function],
+        "setLastAccessedHorse": [Function],
+        "setNextStep": [Function],
+        "setPreviousStep": [Function],
+        "toggleSelectImage": [Function],
+        "unselectRide": [Function],
+      }
+    }
+    horses={
+      Object {
+        "addHorse": Object {
+          "fetching": false,
+          "step": "NAME",
+        },
+        "album": Object {
+          "fetching": true,
+          "pictures": Array [],
+          "selectedImages": Array [],
+          "upload": Object {
+            "errored": false,
+            "isUploading": false,
+            "uploaded": false,
+          },
+        },
+        "cursor": undefined,
+        "detail": Object {
+          "entry": null,
+          "error": false,
+          "fetched": false,
+          "fetching": false,
+        },
+        "error": false,
+        "fetched": true,
+        "fetching": false,
+        "forceUpdate": null,
+        "horse": undefined,
+        "horsePictureChanged": 0,
+        "horses": Array [
+          Object {
+            "date_created": 1465208196000,
+            "date_last_accessed": 1501745884000,
+            "horse": Object {
+              "date_created": 1464792727000,
+              "id": "8f13609e-9872-4f90-8deb-3c4dc0a9bd02",
+              "profile": Object {
+                "name": "wicked long name test hello",
+              },
+              "profile_picture": Object {
+                "fullsize": Object {
+                  "height": 800,
+                  "url": "https://dev-content.horsha.com/023f45bb-c202-47cd-8ada-45f66c9167fd.jpg",
+                  "width": 800,
+                },
+                "thumbnail": Object {
+                  "height": 300,
+                  "url": "https://dev-content.horsha.com/3172cfe9-4b5b-48a4-8dd3-5a10f58c61fc.jpg",
+                  "width": 300,
+                },
+              },
+            },
+            "id": "e97d2af9-1365-44a9-873d-2b55198ea815",
+            "relation_type": "sharer",
+            "user": Object {
+              "id": "95abaa8c-98f6-4eb5-9c84-a7b4abd19d4b",
+              "name": "Do",
+              "profile_picture": Object {
+                "fullsize": Object {
+                  "height": 1286,
+                  "url": "https://dev-content.horsha.com/f60b0bb9-7ace-4ee4-959d-4a2a8a219d55.jpg",
+                  "width": 1600,
+                },
+                "thumbnail": Object {
+                  "height": 300,
+                  "url": "https://dev-content.horsha.com/70d44fd6-6a4f-42d7-a912-04354045defb.jpg",
+                  "width": 300,
+                },
+              },
+            },
+          },
+        ],
+        "horsesRemaining": 45,
+        "journal": Object {
+          "error": false,
+          "fetched": false,
+          "fetching": false,
+        },
+        "profile": Object {
+          "birth": null,
+          "breed": null,
+          "color": null,
+          "description": null,
+          "fetched": false,
+          "fetching": true,
+          "gender": null,
+          "height": null,
+          "horseCare": null,
+          "image": "",
+          "name": null,
+          "stats": Object {
+            "distance": 0,
+            "duration": 0,
+            "rides": 0,
+          },
+          "weight": null,
+        },
+        "selectedRides": Array [],
+        "team": Object {
+          "fetching": true,
+          "owners": Array [],
+          "users": Array [],
+        },
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <Component>
+          <FlatList
+            data={
+              Array [
+                Object {
+                  "date_created": 1465208196000,
+                  "date_last_accessed": 1501745884000,
+                  "horse": Object {
+                    "date_created": 1464792727000,
+                    "id": "8f13609e-9872-4f90-8deb-3c4dc0a9bd02",
+                    "profile": Object {
+                      "name": "wicked long name test hello",
+                    },
+                    "profile_picture": Object {
+                      "fullsize": Object {
+                        "height": 800,
+                        "url": "https://dev-content.horsha.com/023f45bb-c202-47cd-8ada-45f66c9167fd.jpg",
+                        "width": 800,
+                      },
+                      "thumbnail": Object {
+                        "height": 300,
+                        "url": "https://dev-content.horsha.com/3172cfe9-4b5b-48a4-8dd3-5a10f58c61fc.jpg",
+                        "width": 300,
+                      },
+                    },
+                  },
+                  "id": "e97d2af9-1365-44a9-873d-2b55198ea815",
+                  "relation_type": "sharer",
+                  "user": Object {
+                    "id": "95abaa8c-98f6-4eb5-9c84-a7b4abd19d4b",
+                    "name": "Do",
+                    "profile_picture": Object {
+                      "fullsize": Object {
+                        "height": 1286,
+                        "url": "https://dev-content.horsha.com/f60b0bb9-7ace-4ee4-959d-4a2a8a219d55.jpg",
+                        "width": 1600,
+                      },
+                      "thumbnail": Object {
+                        "height": 300,
+                        "url": "https://dev-content.horsha.com/70d44fd6-6a4f-42d7-a912-04354045defb.jpg",
+                        "width": 300,
+                      },
+                    },
+                  },
+                },
+              ]
+            }
+            disableVirtualization={false}
+            horizontal={true}
+            initialNumToRender={10}
+            keyExtractor={[Function]}
+            maxToRenderPerBatch={10}
+            numColumns={1}
+            onEndReached={[Function]}
+            onEndReachedThreshold={2}
+            renderItem={[Function]}
+            scrollEventThrottle={50}
+            style={
+              Object {
+                "marginLeft": 15,
+                "marginTop": 5,
+              }
+            }
+            updateCellsBatchingPeriod={50}
+            windowSize={21}
+          />
+        </Component>,
+        null,
+      ],
+      "style": Object {
+        "backgroundColor": "white",
+        "flex": 1,
+      },
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <FlatList
+            data={
+              Array [
+                Object {
+                  "date_created": 1465208196000,
+                  "date_last_accessed": 1501745884000,
+                  "horse": Object {
+                    "date_created": 1464792727000,
+                    "id": "8f13609e-9872-4f90-8deb-3c4dc0a9bd02",
+                    "profile": Object {
+                      "name": "wicked long name test hello",
+                    },
+                    "profile_picture": Object {
+                      "fullsize": Object {
+                        "height": 800,
+                        "url": "https://dev-content.horsha.com/023f45bb-c202-47cd-8ada-45f66c9167fd.jpg",
+                        "width": 800,
+                      },
+                      "thumbnail": Object {
+                        "height": 300,
+                        "url": "https://dev-content.horsha.com/3172cfe9-4b5b-48a4-8dd3-5a10f58c61fc.jpg",
+                        "width": 300,
+                      },
+                    },
+                  },
+                  "id": "e97d2af9-1365-44a9-873d-2b55198ea815",
+                  "relation_type": "sharer",
+                  "user": Object {
+                    "id": "95abaa8c-98f6-4eb5-9c84-a7b4abd19d4b",
+                    "name": "Do",
+                    "profile_picture": Object {
+                      "fullsize": Object {
+                        "height": 1286,
+                        "url": "https://dev-content.horsha.com/f60b0bb9-7ace-4ee4-959d-4a2a8a219d55.jpg",
+                        "width": 1600,
+                      },
+                      "thumbnail": Object {
+                        "height": 300,
+                        "url": "https://dev-content.horsha.com/70d44fd6-6a4f-42d7-a912-04354045defb.jpg",
+                        "width": 300,
+                      },
+                    },
+                  },
+                },
+              ]
+            }
+            disableVirtualization={false}
+            horizontal={true}
+            initialNumToRender={10}
+            keyExtractor={[Function]}
+            maxToRenderPerBatch={10}
+            numColumns={1}
+            onEndReached={[Function]}
+            onEndReachedThreshold={2}
+            renderItem={[Function]}
+            scrollEventThrottle={50}
+            style={
+              Object {
+                "marginLeft": 15,
+                "marginTop": 5,
+              }
+            }
+            updateCellsBatchingPeriod={50}
+            windowSize={21}
+          />,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "data": Array [
+              Object {
+                "date_created": 1465208196000,
+                "date_last_accessed": 1501745884000,
+                "horse": Object {
+                  "date_created": 1464792727000,
+                  "id": "8f13609e-9872-4f90-8deb-3c4dc0a9bd02",
+                  "profile": Object {
+                    "name": "wicked long name test hello",
+                  },
+                  "profile_picture": Object {
+                    "fullsize": Object {
+                      "height": 800,
+                      "url": "https://dev-content.horsha.com/023f45bb-c202-47cd-8ada-45f66c9167fd.jpg",
+                      "width": 800,
+                    },
+                    "thumbnail": Object {
+                      "height": 300,
+                      "url": "https://dev-content.horsha.com/3172cfe9-4b5b-48a4-8dd3-5a10f58c61fc.jpg",
+                      "width": 300,
+                    },
+                  },
+                },
+                "id": "e97d2af9-1365-44a9-873d-2b55198ea815",
+                "relation_type": "sharer",
+                "user": Object {
+                  "id": "95abaa8c-98f6-4eb5-9c84-a7b4abd19d4b",
+                  "name": "Do",
+                  "profile_picture": Object {
+                    "fullsize": Object {
+                      "height": 1286,
+                      "url": "https://dev-content.horsha.com/f60b0bb9-7ace-4ee4-959d-4a2a8a219d55.jpg",
+                      "width": 1600,
+                    },
+                    "thumbnail": Object {
+                      "height": 300,
+                      "url": "https://dev-content.horsha.com/70d44fd6-6a4f-42d7-a912-04354045defb.jpg",
+                      "width": 300,
+                    },
+                  },
+                },
+              },
+            ],
+            "disableVirtualization": false,
+            "horizontal": true,
+            "initialNumToRender": 10,
+            "keyExtractor": [Function],
+            "maxToRenderPerBatch": 10,
+            "numColumns": 1,
+            "onEndReached": [Function],
+            "onEndReachedThreshold": 2,
+            "renderItem": [Function],
+            "scrollEventThrottle": 50,
+            "style": Object {
+              "marginLeft": 15,
+              "marginTop": 5,
+            },
+            "updateCellsBatchingPeriod": 50,
+            "windowSize": 21,
+          },
+          "ref": [Function],
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      null,
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <Component>
+            <FlatList
+              data={
+                Array [
+                  Object {
+                    "date_created": 1465208196000,
+                    "date_last_accessed": 1501745884000,
+                    "horse": Object {
+                      "date_created": 1464792727000,
+                      "id": "8f13609e-9872-4f90-8deb-3c4dc0a9bd02",
+                      "profile": Object {
+                        "name": "wicked long name test hello",
+                      },
+                      "profile_picture": Object {
+                        "fullsize": Object {
+                          "height": 800,
+                          "url": "https://dev-content.horsha.com/023f45bb-c202-47cd-8ada-45f66c9167fd.jpg",
+                          "width": 800,
+                        },
+                        "thumbnail": Object {
+                          "height": 300,
+                          "url": "https://dev-content.horsha.com/3172cfe9-4b5b-48a4-8dd3-5a10f58c61fc.jpg",
+                          "width": 300,
+                        },
+                      },
+                    },
+                    "id": "e97d2af9-1365-44a9-873d-2b55198ea815",
+                    "relation_type": "sharer",
+                    "user": Object {
+                      "id": "95abaa8c-98f6-4eb5-9c84-a7b4abd19d4b",
+                      "name": "Do",
+                      "profile_picture": Object {
+                        "fullsize": Object {
+                          "height": 1286,
+                          "url": "https://dev-content.horsha.com/f60b0bb9-7ace-4ee4-959d-4a2a8a219d55.jpg",
+                          "width": 1600,
+                        },
+                        "thumbnail": Object {
+                          "height": 300,
+                          "url": "https://dev-content.horsha.com/70d44fd6-6a4f-42d7-a912-04354045defb.jpg",
+                          "width": 300,
+                        },
+                      },
+                    },
+                  },
+                ]
+              }
+              disableVirtualization={false}
+              horizontal={true}
+              initialNumToRender={10}
+              keyExtractor={[Function]}
+              maxToRenderPerBatch={10}
+              numColumns={1}
+              onEndReached={[Function]}
+              onEndReachedThreshold={2}
+              renderItem={[Function]}
+              scrollEventThrottle={50}
+              style={
+                Object {
+                  "marginLeft": 15,
+                  "marginTop": 5,
+                }
+              }
+              updateCellsBatchingPeriod={50}
+              windowSize={21}
+            />
+          </Component>,
+          null,
+        ],
+        "style": Object {
+          "backgroundColor": "white",
+          "flex": 1,
+        },
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <FlatList
+              data={
+                Array [
+                  Object {
+                    "date_created": 1465208196000,
+                    "date_last_accessed": 1501745884000,
+                    "horse": Object {
+                      "date_created": 1464792727000,
+                      "id": "8f13609e-9872-4f90-8deb-3c4dc0a9bd02",
+                      "profile": Object {
+                        "name": "wicked long name test hello",
+                      },
+                      "profile_picture": Object {
+                        "fullsize": Object {
+                          "height": 800,
+                          "url": "https://dev-content.horsha.com/023f45bb-c202-47cd-8ada-45f66c9167fd.jpg",
+                          "width": 800,
+                        },
+                        "thumbnail": Object {
+                          "height": 300,
+                          "url": "https://dev-content.horsha.com/3172cfe9-4b5b-48a4-8dd3-5a10f58c61fc.jpg",
+                          "width": 300,
+                        },
+                      },
+                    },
+                    "id": "e97d2af9-1365-44a9-873d-2b55198ea815",
+                    "relation_type": "sharer",
+                    "user": Object {
+                      "id": "95abaa8c-98f6-4eb5-9c84-a7b4abd19d4b",
+                      "name": "Do",
+                      "profile_picture": Object {
+                        "fullsize": Object {
+                          "height": 1286,
+                          "url": "https://dev-content.horsha.com/f60b0bb9-7ace-4ee4-959d-4a2a8a219d55.jpg",
+                          "width": 1600,
+                        },
+                        "thumbnail": Object {
+                          "height": 300,
+                          "url": "https://dev-content.horsha.com/70d44fd6-6a4f-42d7-a912-04354045defb.jpg",
+                          "width": 300,
+                        },
+                      },
+                    },
+                  },
+                ]
+              }
+              disableVirtualization={false}
+              horizontal={true}
+              initialNumToRender={10}
+              keyExtractor={[Function]}
+              maxToRenderPerBatch={10}
+              numColumns={1}
+              onEndReached={[Function]}
+              onEndReachedThreshold={2}
+              renderItem={[Function]}
+              scrollEventThrottle={50}
+              style={
+                Object {
+                  "marginLeft": 15,
+                  "marginTop": 5,
+                }
+              }
+              updateCellsBatchingPeriod={50}
+              windowSize={21}
+            />,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "data": Array [
+                Object {
+                  "date_created": 1465208196000,
+                  "date_last_accessed": 1501745884000,
+                  "horse": Object {
+                    "date_created": 1464792727000,
+                    "id": "8f13609e-9872-4f90-8deb-3c4dc0a9bd02",
+                    "profile": Object {
+                      "name": "wicked long name test hello",
+                    },
+                    "profile_picture": Object {
+                      "fullsize": Object {
+                        "height": 800,
+                        "url": "https://dev-content.horsha.com/023f45bb-c202-47cd-8ada-45f66c9167fd.jpg",
+                        "width": 800,
+                      },
+                      "thumbnail": Object {
+                        "height": 300,
+                        "url": "https://dev-content.horsha.com/3172cfe9-4b5b-48a4-8dd3-5a10f58c61fc.jpg",
+                        "width": 300,
+                      },
+                    },
+                  },
+                  "id": "e97d2af9-1365-44a9-873d-2b55198ea815",
+                  "relation_type": "sharer",
+                  "user": Object {
+                    "id": "95abaa8c-98f6-4eb5-9c84-a7b4abd19d4b",
+                    "name": "Do",
+                    "profile_picture": Object {
+                      "fullsize": Object {
+                        "height": 1286,
+                        "url": "https://dev-content.horsha.com/f60b0bb9-7ace-4ee4-959d-4a2a8a219d55.jpg",
+                        "width": 1600,
+                      },
+                      "thumbnail": Object {
+                        "height": 300,
+                        "url": "https://dev-content.horsha.com/70d44fd6-6a4f-42d7-a912-04354045defb.jpg",
+                        "width": 300,
+                      },
+                    },
+                  },
+                },
+              ],
+              "disableVirtualization": false,
+              "horizontal": true,
+              "initialNumToRender": 10,
+              "keyExtractor": [Function],
+              "maxToRenderPerBatch": 10,
+              "numColumns": 1,
+              "onEndReached": [Function],
+              "onEndReachedThreshold": 2,
+              "renderItem": [Function],
+              "scrollEventThrottle": 50,
+              "style": Object {
+                "marginLeft": 15,
+                "marginTop": 5,
+              },
+              "updateCellsBatchingPeriod": 50,
+              "windowSize": 21,
+            },
+            "ref": [Function],
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        null,
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+    "context": Object {
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+    },
+  },
+}
+`;

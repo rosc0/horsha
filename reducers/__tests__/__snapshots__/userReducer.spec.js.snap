@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`User Reducer should get current user 1`] = `
+Object {
+  "error": false,
+  "fetched": true,
+  "fetching": false,
+  "user": Object {
+    "account_status": "enabled",
+    "birthday": "1977-09-25",
+    "country_code": "NL",
+    "date_account_status_changed": 1519053985000,
+    "date_created": 1519053985000,
+    "date_verification_state_changed": 1519072823000,
+    "friendship_requested": false,
+    "has_password": true,
+    "horse_membership_count": 32,
+    "id": "CURRENT_USER_ID",
+    "name": "Ronaldo Lima",
+    "preferences": Object {
+      "height_unit": "centimeters",
+      "push_notification_settings": Object {
+        "push_enabled": true,
+        "topics": Object {
+          "horse_team": true,
+          "journal_entry": true,
+          "trail_content": true,
+        },
+      },
+      "unit_system": "metric",
+    },
+    "primary_email": "ronaldo@horsha.com",
+    "profile_picture": Object {
+      "height": 0,
+      "url": "https://dev-image-transformation.horsha.com/193d4e08-ae70-4cde-9fdf-e8513fb836e1/transformation",
+      "width": 0,
+    },
+    "profile_text": "Mdadwadwa↵Sea↵Wd↵A↵Sea↵Sea↵Sea↵D↵Wa↵Dwadwadwadwa↵Dwadwadwadwadwa↵Sea↵Dwadwadwadwadwa↵Kkkkjkjljljljljljjjjjjkjkldwadwadw↵Dwa↵D↵Aw↵Dwa↵Dwadwadwadwadwa↵Dwa↵D↵Wa↵Dwadwadwadwadwadwadwadwadwa",
+    "registered_emails": Array [
+      Object {
+        "confirmed": false,
+        "email": "dwa@dsa.com",
+      },
+      Object {
+        "confirmed": false,
+        "email": "hshdhdd@jsjsj.com",
+      },
+      Object {
+        "confirmed": false,
+        "email": "ronaldo@horsha.com",
+      },
+    ],
+    "riding_totals": Object {
+      "ascent": 0,
+      "count": 137,
+      "descent": 0,
+      "distance": 1565929,
+      "duration": 9075763417,
+    },
+    "role": "user",
+    "verification_state": "verified",
+  },
+  "userSearch": Object {
+    "fetching": false,
+    "users": Array [],
+  },
+}
+`;
+
+exports[`User Reducer should return initial state 1`] = `
+Object {
+  "error": null,
+  "fetched": false,
+  "fetching": false,
+  "user": Object {
+    "account_status": null,
+    "date_created": null,
+    "gender": null,
+    "has_password": null,
+    "horse_membership_count": null,
+    "id": null,
+    "name": null,
+    "nr_of_rides": null,
+    "primary_email": null,
+    "role": null,
+    "total_riding_ascent": null,
+    "total_riding_descent": null,
+    "total_riding_distance": null,
+    "total_riding_time": null,
+    "verification_state": null,
+  },
+  "userSearch": Object {
+    "fetching": false,
+    "users": Array [],
+  },
+}
+`;

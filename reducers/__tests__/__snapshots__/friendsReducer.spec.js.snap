@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Comments Reducer should return initial state 1`] = `
+Object {
+  "error": null,
+  "fetched": false,
+  "fetching": false,
+  "friendSearch": Array [],
+  "friendSearchRemaining": 0,
+  "friends": Array [],
+  "friendsByKm": Array [],
+  "friendsByKmCursor": null,
+  "friendsByKmRemaining": 0,
+  "friendsCursor": null,
+  "friendsRemaining": 0,
+}
+`;

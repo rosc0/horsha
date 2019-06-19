@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Settings Reducer should RESET_SOURCE 1`] = `
+Object {
+  "boundBox": Object {
+    "bb_bottom_left_latitude": 0,
+    "bb_bottom_left_longitude": 0,
+    "bb_top_right_latitude": 0,
+    "bb_top_right_longitude": 0,
+  },
+  "region": Object {
+    "latitude": 0,
+    "latitudeDelta": 0,
+    "longitude": 0,
+    "longitudeDelta": 0,
+  },
+  "source": null,
+}
+`;
+
+exports[`Settings Reducer should SET_BOUND_BOX 1`] = `
+Object {
+  "boundBox": Object {
+    "bb_bottom_left_latitude": 52.26929249090053,
+    "bb_bottom_left_longitude": 4.846113294808747,
+    "bb_top_right_latitude": 52.457532490900526,
+    "bb_top_right_longitude": 4.940233294808747,
+  },
+  "region": Object {
+    "latitude": 0,
+    "latitudeDelta": 0,
+    "longitude": 0,
+    "longitudeDelta": 0,
+  },
+  "source": null,
+}
+`;
+
+exports[`Settings Reducer should SET_LATITUDE_LONGITUDE 1`] = `
+Object {
+  "boundBox": Object {
+    "bb_bottom_left_latitude": 52.26929249090053,
+    "bb_bottom_left_longitude": 4.866715273819242,
+    "bb_top_right_latitude": 52.457532490900526,
+    "bb_top_right_longitude": 4.919631315798252,
+  },
+  "region": Object {
+    "latitude": 52.36341249090053,
+    "longitude": 4.893173294808747,
+  },
+  "source": undefined,
+}
+`;
+
+exports[`Settings Reducer should return initial state 1`] = `
+Object {
+  "boundBox": Object {
+    "bb_bottom_left_latitude": 0,
+    "bb_bottom_left_longitude": 0,
+    "bb_top_right_latitude": 0,
+    "bb_top_right_longitude": 0,
+  },
+  "region": Object {
+    "latitude": 0,
+    "latitudeDelta": 0,
+    "longitude": 0,
+    "longitudeDelta": 0,
+  },
+  "source": null,
+}
+`;

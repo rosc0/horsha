@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Auth Reducer should return initial state 1`] = `
+Object {
+  "auth": Object {
+    "accessToken": null,
+    "expireDate": null,
+    "refreshToken": null,
+  },
+  "checking": false,
+  "error": null,
+  "fetched": false,
+  "fetching": false,
+  "loggedIn": false,
+  "resetPassword": Object {
+    "errored": false,
+    "fetching": false,
+    "fulfilled": false,
+  },
+}
+`;

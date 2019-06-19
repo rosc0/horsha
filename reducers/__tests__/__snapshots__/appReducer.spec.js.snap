@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Reducer should CLEAN_ALERT_STATUS 1`] = `
+Object {
+  "currentRouteName": undefined,
+  "error": Object {
+    "message": "",
+    "title": "",
+    "type": "",
+  },
+  "isDeviceConnected": null,
+  "isError": false,
+}
+`;
+
+exports[`App Reducer should SET_ALERT_STATUS 1`] = `
+Object {
+  "currentRouteName": undefined,
+  "error": "Test message",
+  "isDeviceConnected": null,
+  "isError": true,
+}
+`;
+
+exports[`App Reducer should SET_CONNECTION_STATUS 1`] = `
+Object {
+  "currentRouteName": undefined,
+  "error": Object {
+    "message": "",
+    "title": "",
+    "type": "",
+  },
+  "isDeviceConnected": undefined,
+  "isError": false,
+}
+`;
+
+exports[`App Reducer should return initial state 1`] = `
+Object {
+  "currentRouteName": undefined,
+  "error": Object {
+    "message": "",
+    "title": "",
+    "type": "",
+  },
+  "isDeviceConnected": null,
+  "isError": false,
+}
+`;

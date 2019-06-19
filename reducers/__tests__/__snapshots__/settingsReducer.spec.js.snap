@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Settings Reducer should CHANGE_LANGUAGE 1`] = `
+Object {
+  "language": "pt-br",
+  "pushNotificationsEnabled": false,
+  "statusBarHidden": false,
+}
+`;
+
+exports[`Settings Reducer should SETTINGS_ENABLE_PUSH_NOTIFICATIONS 1`] = `
+Object {
+  "language": "en",
+  "pushNotificationsEnabled": true,
+  "statusBarHidden": false,
+}
+`;
+
+exports[`Settings Reducer should TOGGLE_STATUS_BAR 1`] = `
+Object {
+  "language": "en",
+  "pushNotificationsEnabled": false,
+  "statusBarHidden": undefined,
+}
+`;
+
+exports[`Settings Reducer should return initial state 1`] = `
+Object {
+  "language": "en",
+  "pushNotificationsEnabled": false,
+  "statusBarHidden": false,
+}
+`;
